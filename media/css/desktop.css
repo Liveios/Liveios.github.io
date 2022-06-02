@@ -1,0 +1,17 @@
+@media all and (min-width:700px) and (max-width:3500px) {
+
+    .header {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        max-width: 100%;
+        color: white;
+    }
+
+    .header h1 {
+        margin-left: 10px;
+    }
+
+}
