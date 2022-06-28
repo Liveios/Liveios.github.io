@@ -1,0 +1,145 @@
+
+    <style>
+        @media all and (min-width:300px) and (max-width:600px) {
+            .row {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+
+        .card {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-around;
+        }
+
+        .sub {
+            min-height: 300px;
+            min-width: 300px;
+            max-width: 30%;
+            border: 2px solid lime;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            margin-top: 25px;
+
+        }
+
+        .sub>h2 {
+            text-align: center;
+        }
+    </style>
+    <div class="card">
+        <div class="row first_row">
+
+            <div class="sub c1">
+                <h2>Programming</h2>
+                <p>
+                    <button class="learn_button" onclick="get('media/data/home/computer/programming/programming.html')"
+                        ontouch="get('media/data/home/computer/programming/programming.html')">
+                        Learn
+                    </button>
+                </p>
+            </div>
+
+            <div class=" sub c1">
+                <h2>Linux</h2>
+                <p>
+                    <button class="learn_button linux" onclick="get('media/data/home/computer/linux/linux.html')"
+                        ontouch="get('media/data/home/computer/linux/linux.html')">
+                        Learn
+                    </button>
+                </p>
+            </div>
+
+            <div class="sub c1">
+                <h2>Git</h2>
+                <p>
+                    <button class="learn_button" onclick="get('media/data/home/computer/more/git/git.html')"
+                        ontouch="get('media/data/home/computer/more/git/git.html')">
+                        Learn
+                    </button>
+                </p>
+            </div>
+
+        </div>
+        <div class="row second_row">
+            <div class="sub c1">
+                <h2>Stories</h2>
+                <p>
+                    <button class="learn_button" onclick="get('media/data/home/blog/stories/stories.html')"
+                        ontouch="get('media/data/home/blog/stories/stories.html')">
+                        Learn
+                    </button>
+                </p>
+
+            </div>
+
+            <div class="sub c1">
+                <h2>Religion</h2>
+                <p>
+                    <button class="learn_button" onclick="get('media/data/home/religion/religion.html' )"
+                        ontouch="get('media/data/home/religion/religion.html')">
+                        Learn
+                    </button>
+                </p>
+
+            </div>
+
+            <div class="sub c1">
+                <h2>Science</h2>
+                <p>
+                    <button class="learn_button" onclick="get('media/data/home/science/science.html')"
+                        ontouch="get('media/data/home/science/science.html' )">
+                        Learn
+                    </button>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row third_row">
+            <div class="sub c1">
+                <h2>English</h2>
+                <p>
+                    <button class="learn_button" onclick="get('media/data/home/more/english/english.html')"
+                        ontouch="get('media/data/home/more/english/english.html')">
+                        Learn
+                    </button>
+                </p>
+
+            </div>
+
+            <div class="sub c1">
+                <h2>Extra</h2>
+                <p>
+                    <button class="learn_button" onclick="get('media/data/home/more/extra/extra.html')"
+                        ontouch="get('media/data/home/more/extra/extra.html')">
+                        Learn
+                    </button>
+                </p>
+            </div>
+            <div class="sub c1">
+                <h2>About</h2>
+                <p>
+                    <button class="learn_button" onclick="get('media/data/home/about/about.html')"
+                        ontouch="get('media/data/home/about/about.html')">
+                        Learn
+                    </button>
+                </p>
+            </div>
+
+        </div>
+
+    </div>

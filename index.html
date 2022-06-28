@@ -1,0 +1,51 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Liveios</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="Chauhan Pruthviraj">
+        <meta name="owner" content="Chauhan Pruthviraj">
+        <meta name="designer" content="Chauhan Pruthviraj">
+        <meta name="web-app-capable" content="yes">
+        <meta name="theme-color" content="yes">
+        <meta name="url" content="https://liveios.github.io">
+        <link rel="stylesheet" href="media/css/universal.css" />
+        <link rel="stylesheet" href="media/css/tv.css" />
+        <link rel="stylesheet" href="media/css/desktop.css" />
+        <link rel="stylesheet" href="media/css/tablet.css" />
+        <link rel="stylesheet" href="media/css/mobile.css" />
+        <script src="media/js/api.js"></script>
+    </head>
+
+    <body class="body" onload="get('media/data/home.html')">
+        <header class="header">
+            <h1 onclick="go('localhost/project/websites/liveios/')" title="Liveios">Liveios</h1>
+            <div class="menu" onclick="open_nav()">
+                <hr />
+                <hr />
+                <hr />
+            </div>
+        </header>
+        <nav class="nav">
+            <button class="nav_button twitter" onclick="go('twitter.com/liveios')"
+                ontouch="go('twitter.com/liveios')">Twitter</button>
+            <button class="nav_button github" onclick="go('github.com/liveios')"
+                onclick="go('twitter.com/liveios')">Github</button>
+            <button class="nav_button close" onclick="close_nav()" ontouch="close_nav()">Close</button>
+        </nav>
+
+        <main class="main">
+            <article class="article">
+
+            </article>
+        </main>
+        <footer class="footer">
+
+        </footer>
+    </body>
+    <script src="media/js/config.js"></script>
+
+    </html>

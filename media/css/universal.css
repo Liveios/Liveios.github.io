@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    line-height: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    max-width: 100%;
+    color: white;
+}
+
+.header>h1 {
+    margin-left: 10px
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.menu>hr {
+    height: 4px;
+    width: 35px;
+    border: none;
+    background-color: white;
+    margin: 3px;
+}
+
+.nav {
+    background-color: black;
+    min-height: 100vh;
+    width: 0%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition-duration: 0.4s;
+    transition-property: width;
+}
+
+.nav_button,
+.learn_button {
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.twitter {
+    background-color: rgb(18, 166, 229)
+}
+
+.github {
+    background-color: yellow
+}
+
+.close {
+    background-color: crimson
+}
